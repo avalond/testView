@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A91F53F1DD312DB00986306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A91F53D1DD312DB00986306 /* Main.storyboard */; };
+		0A91F5411DD312DB00986306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A91F5401DD312DB00986306 /* Assets.xcassets */; };
+		0A91F5441DD312DB00986306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A91F5421DD312DB00986306 /* LaunchScreen.storyboard */; };
+		0AED3E171DD33AB5009C521E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED3E161DD33AB5009C521E /* AppDelegate.swift */; };
+		0AED3E191DD33ADC009C521E /* HomeViewConctroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED3E181DD33ADC009C521E /* HomeViewConctroller.swift */; };
+		0AED3E1B1DD33AF3009C521E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED3E1A1DD33AF3009C521E /* LoginViewController.swift */; };
+		0AED3E1D1DD33B06009C521E /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED3E1C1DD33B06009C521E /* OrderViewController.swift */; };
+		0AED3E1F1DD33B17009C521E /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED3E1E1DD33B17009C521E /* SetupViewController.swift */; };
+		0AED3E211DD33B29009C521E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED3E201DD33B29009C521E /* ViewController.swift */; };
+		8795916D3594E7717C8DB468 /* Pods_LokobeeBizView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C207A852AC7DCB9DA058E95 /* Pods_LokobeeBizView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A91F5361DD312DB00986306 /* LokobeeBizView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokobeeBizView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A91F53E1DD312DB00986306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A91F5401DD312DB00986306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A91F5431DD312DB00986306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A91F5451DD312DB00986306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AED3E091DD339F3009C521E /* LokobeeBizView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LokobeeBizView-Bridging-Header.h"; sourceTree = "<group>"; };
+		0AED3E161DD33AB5009C521E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AED3E181DD33ADC009C521E /* HomeViewConctroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewConctroller.swift; sourceTree = "<group>"; };
+		0AED3E1A1DD33AF3009C521E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0AED3E1C1DD33B06009C521E /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		0AED3E1E1DD33B17009C521E /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		0AED3E201DD33B29009C521E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		225F33BF05D4B22E1959794F /* Pods-LokobeeBizView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokobeeBizView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokobeeBizView/Pods-LokobeeBizView.debug.xcconfig"; sourceTree = "<group>"; };
+		369E5BA76BCB4762EC6DA703 /* Pods-LokobeeBizView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokobeeBizView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokobeeBizView/Pods-LokobeeBizView.release.xcconfig"; sourceTree = "<group>"; };
+		6C207A852AC7DCB9DA058E95 /* Pods_LokobeeBizView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokobeeBizView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A91F5331DD312DB00986306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8795916D3594E7717C8DB468 /* Pods_LokobeeBizView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A91F52D1DD312DB00986306 = {
+			isa = PBXGroup;
+			children = (
+				0A91F5381DD312DB00986306 /* LokobeeBizView */,
+				0A91F5371DD312DB00986306 /* Products */,
+				E7DA720A94E52478AF3B0550 /* Pods */,
+				C1770F16100E9B1A5006731D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A91F5371DD312DB00986306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A91F5361DD312DB00986306 /* LokobeeBizView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A91F5381DD312DB00986306 /* LokobeeBizView */ = {
+			isa = PBXGroup;
+			children = (
+				0A91F53D1DD312DB00986306 /* Main.storyboard */,
+				0A91F5401DD312DB00986306 /* Assets.xcassets */,
+				0A91F5421DD312DB00986306 /* LaunchScreen.storyboard */,
+				0A91F5451DD312DB00986306 /* Info.plist */,
+				0AED3E091DD339F3009C521E /* LokobeeBizView-Bridging-Header.h */,
+				0AED3E161DD33AB5009C521E /* AppDelegate.swift */,
+				0AED3E181DD33ADC009C521E /* HomeViewConctroller.swift */,
+				0AED3E1A1DD33AF3009C521E /* LoginViewController.swift */,
+				0AED3E1C1DD33B06009C521E /* OrderViewController.swift */,
+				0AED3E1E1DD33B17009C521E /* SetupViewController.swift */,
+				0AED3E201DD33B29009C521E /* ViewController.swift */,
+			);
+			path = LokobeeBizView;
+			sourceTree = "<group>";
+		};
+		C1770F16100E9B1A5006731D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C207A852AC7DCB9DA058E95 /* Pods_LokobeeBizView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7DA720A94E52478AF3B0550 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				225F33BF05D4B22E1959794F /* Pods-LokobeeBizView.debug.xcconfig */,
+				369E5BA76BCB4762EC6DA703 /* Pods-LokobeeBizView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A91F5351DD312DB00986306 /* LokobeeBizView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A91F5481DD312DB00986306 /* Build configuration list for PBXNativeTarget "LokobeeBizView" */;
+			buildPhases = (
+				D35116BBB806746490423758 /* [CP] Check Pods Manifest.lock */,
+				0A91F5321DD312DB00986306 /* Sources */,
+				0A91F5331DD312DB00986306 /* Frameworks */,
+				0A91F5341DD312DB00986306 /* Resources */,
+				AD487D4E859397A4D8F7D1C8 /* [CP] Embed Pods Frameworks */,
+				07D8EB1EA4D01ACA008DF2B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LokobeeBizView;
+			productName = LokobeeBizView;
+			productReference = 0A91F5361DD312DB00986306 /* LokobeeBizView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A91F52E1DD312DB00986306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = kevin;
+				TargetAttributes = {
+					0A91F5351DD312DB00986306 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JMH7NAM27K;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A91F5311DD312DB00986306 /* Build configuration list for PBXProject "LokobeeBizView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A91F52D1DD312DB00986306;
+			productRefGroup = 0A91F5371DD312DB00986306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A91F5351DD312DB00986306 /* LokobeeBizView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A91F5341DD312DB00986306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A91F5441DD312DB00986306 /* LaunchScreen.storyboard in Resources */,
+				0A91F5411DD312DB00986306 /* Assets.xcassets in Resources */,
+				0A91F53F1DD312DB00986306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D8EB1EA4D01ACA008DF2B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LokobeeBizView/Pods-LokobeeBizView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD487D4E859397A4D8F7D1C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LokobeeBizView/Pods-LokobeeBizView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35116BBB806746490423758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A91F5321DD312DB00986306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AED3E211DD33B29009C521E /* ViewController.swift in Sources */,
+				0AED3E1B1DD33AF3009C521E /* LoginViewController.swift in Sources */,
+				0AED3E171DD33AB5009C521E /* AppDelegate.swift in Sources */,
+				0AED3E191DD33ADC009C521E /* HomeViewConctroller.swift in Sources */,
+				0AED3E1D1DD33B06009C521E /* OrderViewController.swift in Sources */,
+				0AED3E1F1DD33B17009C521E /* SetupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A91F53D1DD312DB00986306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A91F53E1DD312DB00986306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A91F5421DD312DB00986306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A91F5431DD312DB00986306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A91F5461DD312DB00986306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A91F5471DD312DB00986306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A91F5491DD312DB00986306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225F33BF05D4B22E1959794F /* Pods-LokobeeBizView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JMH7NAM27K;
+				INFOPLIST_FILE = LokobeeBizView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biztrology.LokobeeBizView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LokobeeBizView/LokobeeBizView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		0A91F54A1DD312DB00986306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369E5BA76BCB4762EC6DA703 /* Pods-LokobeeBizView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JMH7NAM27K;
+				INFOPLIST_FILE = LokobeeBizView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biztrology.LokobeeBizView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LokobeeBizView/LokobeeBizView-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A91F5311DD312DB00986306 /* Build configuration list for PBXProject "LokobeeBizView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A91F5461DD312DB00986306 /* Debug */,
+				0A91F5471DD312DB00986306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A91F5481DD312DB00986306 /* Build configuration list for PBXNativeTarget "LokobeeBizView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A91F5491DD312DB00986306 /* Debug */,
+				0A91F54A1DD312DB00986306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A91F52E1DD312DB00986306 /* Project object */;
+}
